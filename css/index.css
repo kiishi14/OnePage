@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#hero-section {
+    min-height: 80vh;
+}
+
+#about-us .row ul {
+    list-style: none;
+}
+
+#cards-section {
+    min-height: 40vh;
+}
+.card-body {
+    height: 200px;
+}
+
+.card-body img {
+    width: 35px;
+    height: 35px;
+}
+
+#hero-section, #cards-section {
+    background: url(../img/endless-constellation.svg);
+    
+}
+
+#numbers {
+    background-color: #f8fbfe;
+}
+
+#video-section .row ul {
+    list-style: none;
+}
+
+.logo-bottom {
+    background: #f8fbfe;
+}
+
+.logo-bottom img {
+    width: 100px;
+    height: auto;
+}
+
