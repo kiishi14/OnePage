@@ -292,13 +292,37 @@
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <!-- Initialize -->
     <script>
+
       var swiper = new Swiper(".mySwiper", {
         slidesPerView: 3,
+        // slidesPerView: "auto",
         spaceBetween: 30,
         pagination: {
           el: ".swiper-pagination",
           clickable: true,
         },
+        breakpoints: {
+        320: {
+          slidesPerView: 1,
+          spaceBetween: 20,
+        },
+        375: {
+          slidesPerView: 1,
+          spaceBetween: 20,
+        },
+        425: {
+          slidesPerView: 1,
+          spaceBetween: 20,
+        },
+        768: {
+          slidesPerView: 1,
+          spaceBetween: 40,
+        },
+        1024: {
+          slidesPerView: 3,
+          spaceBetween: 50,
+        },
+      }
       });
     </script>
 </body>
