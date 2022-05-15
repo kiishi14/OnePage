@@ -12,6 +12,29 @@ body {
     min-height: 80vh;
 }
 
+/* .hero-text {
+    animation-name: move;
+    animation-duration: 5s;
+    margin-top: 70px;
+}
+
+.hero-text:visited {
+   @keyframes move 
+   100% {transform: translateY(-22px);}
+} */
+
+.text-primary {
+    color: #124265 !important;
+}
+
+.text-info {
+    color: #1e6ca6 !important;
+}
+
+.text-secondary {
+    color: #5e5e5e !important;
+}
+
 #about-us .row ul {
     list-style: none;
 }
@@ -19,6 +42,16 @@ body {
 #cards-section {
     min-height: 40vh;
 }
+
+.card {
+    transition: all 0.4s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.1);
+
+}
+
 .card-body {
     height: 200px;
 }
@@ -29,7 +62,7 @@ body {
 }
 
 #hero-section, #cards-section {
-    background: url(../img/endless-constellation.svg);
+    background: linear-gradient(45deg, rgba(255, 255, 255, 0.8),rgba(255, 255, 255, 0.8)), url(../img/hero-bg.jpg);
     
 }
 
@@ -46,7 +79,28 @@ body {
 }
 
 .logo-bottom img {
-    width: 100px;
+    max-width: 100px;
     height: auto;
+    filter: grayscale(100%);
+}
+
+.logo-bottom img:hover {
+    filter: grayscale(0%);
+    transition: all 0.4s ease-in-out;
+    transform: scale(1.15);
+}
+
+.testimony-img img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.testimony{
+    background: #f3f9fd;
+}
+
+#services-section {
+    background-color: #f8fbfe;
 }
 
