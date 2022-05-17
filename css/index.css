@@ -100,7 +100,80 @@ body {
     background: #f3f9fd;
 }
 
-#services-section {
-    background-color: #f8fbfe;
+.section-bg {
+    background: #f8fbfe;
 }
 
+.service-card-bg {
+    background: white;
+}
+
+.dribble-icon, .file, .speedometer, .stack-icon {
+    position: absolute;
+    margin-left: -4.5rem;
+    margin-top: 2rem;
+    
+}
+
+.arch-icon, .slide-icon {
+    position: absolute;
+    margin-left: -4rem;
+    margin-top: 3rem;
+}
+
+.dribble-bg, .file-bg, .speedometer-bg, .stack-bg, .slide-bg, .arch-bg {
+    position: relative;
+}
+
+.dribble-background:hover .dribble-bg {
+    fill: #47aeff;
+}
+
+.dribble-background:hover .dribble-icon, .earmark-background:hover .file, .speedometer-background:hover .speedometer, .stack-background:hover .stack-icon, .slide-background:hover .slide-icon, .arch-background:hover .arch-icon {
+    fill: #ffffff;
+}
+
+.earmark-background:hover .file-bg {
+    fill: #ffa76e;
+}
+
+.speedometer-background:hover .speedometer-bg {
+    fill: #e80368;
+}
+
+.stack-background:hover .stack-bg {
+    fill: #ffbb2c;
+}
+
+.slide-background:hover .slide-bg {
+    fill: #ff5828;
+}
+
+.arch-background:hover .arch-bg {
+    fill: #11dbcf;
+}
+
+/* .dribble-icon:hover {
+    fill: white;
+}
+
+.dribble-bg:hover {
+    fill: #47aeff;
+} */
+
+
+.icon-box {
+   padding:  70px 20px 80px 20px;
+}
+
+.icon-box p {
+    font-size: 14px;
+}
+
+.icon-box a {
+   text-decoration: none;
+}
+
+/* .bi-dribbble:before {
+    content: "\e920";
+} */
