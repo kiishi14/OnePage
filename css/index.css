@@ -66,7 +66,7 @@ body {
     
 }
 
-#numbers, #team {
+#numbers, #team, #faq {
     background-color: #f8fbfe;
 }
 
@@ -289,12 +289,75 @@ body {
     color: #ccc;
 }
 
-.btn-outline-primary {
-    outline: #2487ce;
+.buy-btn {
+    padding: 10px 40px 10px 40px;
+    margin-left: 20px;
+    border-color: #2487ce;
+    border-radius: 5px;
+    background-color: white;
+    color: #2487ce;
 }
 
-.btn-outline-primary:hover {
-    background-color: #2487ce !important;
+.buy-btn:hover {
+    background-color: #2487ce;
+    color: white;
+}
+
+#business-plan {
+    background-color: #2487ce;
+    color: white;
+}
+
+.bus-btn {
+    padding: 10px 40px 10px 40px;
+    margin-left: 20px;
+    border-radius: 5px;
+    border-color: white;
+    background-color: #2487ce;
+    color: white;
+}
+
+.bus-btn:hover {
+    background-color: white;
+    color: #2487ce;
+}
+
+#bus-price {
+    color: white;
+}
+
+.bi-question-circle {
+    color: #2487ce;
+    margin-right: 10px;
+}
+
+.contact-icon i {
+    border: 2px solid;
+    font-size: 20px;
+    color: #2487ce;
+    float: left;
+    width: 44px;
+    height: 44px;
+    background: #e3f0fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+    margin-right: 20px;
+}
+
+.contact-icon i:hover {
+    background: #2487ce;
+    color: #e3f0fa;
+}
+
+.contact-btn {
+    background: #2487ce;
+    color: white;
+    padding: 10px 30px;
+    transition: all 0.4s ease;
+    border-radius: 4px;
 }
 
 /* for tablet */
