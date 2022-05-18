@@ -66,7 +66,7 @@ body {
     
 }
 
-#numbers {
+#numbers, #team {
     background-color: #f8fbfe;
 }
 
@@ -218,8 +218,95 @@ body {
     display: none;
 }
 
+.image-top .socials {
+    position: absolute;
+    height: 50px;
+    margin-top: -50px;
+    margin-left: 0px;
+    background-color: white;
+    opacity: 0;
+    width: 20.4%;
+    padding-top: 15px;
+    /* width: 43.8%; */
+    /* padding-right: 61px;
+    padding-left: 61px;
+   
+    padding-bottom: 15px; */
+    align-items: center;
+    justify-content:center;
+    text-align: center;
+}
+
+.image-top .socials a {
+   text-align: center;
+}
+
+.team-cards:hover .image-top .socials {
+    opacity: 0.7;
+}
+
+.image-top .social a {
+    transition: color 0.3s;
+    color: #124265;
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.price-card-info {
+    padding: 40px 20px;
+    text-align: center;
+    border-radius: 8px;
+    position: relative;
+    overflow: hidden;
+    background: #fefefe;
+    box-shadow: 0px 5px 90px 0px rgb(110 123 131 / 10%);
+}
+
+.price-card-info h4 {
+    margin-bottom: 20px;
+   
+}
+
+.price-card-info h4 span {
+    color: #2487ce;
+}
+
+.price-card-info h4 sub {
+    color: #bababa;
+}
 
 
-/* .bi-dribbble:before {
-    content: "\e920";
-} */
+.price-card-info h3 {
+    padding: 15px;
+}
+
+.price-card-info ul li {
+    list-style: none;
+    padding-bottom: 15px;
+}
+
+.price-card-info ul li del {
+    color: #ccc;
+}
+
+.btn-outline-primary {
+    outline: #2487ce;
+}
+
+.btn-outline-primary:hover {
+    background-color: #2487ce !important;
+}
+
+/* for tablet */
+@media (max-width:769px) {
+    .image-top .socials {
+        width: 43.8%;
+    }
+}
+
+/* for mobile phones */
+@media (max-width:426px) {
+    .image-top .socials {
+        width: 94.1%;
+    }
+}
